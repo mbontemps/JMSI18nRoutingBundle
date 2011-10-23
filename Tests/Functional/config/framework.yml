@@ -1,8 +1,8 @@
 framework:
     secret: test
     test: ~
+    default_locale: en
     session:
-        default_locale: en
         storage_id: session.storage.filesystem
     form:            true
     csrf_protection: true
